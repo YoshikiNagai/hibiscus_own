@@ -1,0 +1,85 @@
+/* Header and Footer CSS */
+/* @author YoshikiNagai */
+
+body {
+	margin: 0;
+}
+
+.hafcss-button-padding {
+	padding: 0 8px;
+}
+
+.hafcss-button-margin {
+	margin: 0 8px;
+}
+
+.hafcss-title {
+	padding: 0 30px;
+}
+
+.hafcss-title a:link {
+	color:white;
+	text-decoration: none;
+}
+
+.hafcss-title a:visited {
+	color: white;
+}
+
+.hafcss-header {
+	width: 100vw;
+	height: 80px;
+	background:linear-gradient(to bottom, deeppink, seashell);
+	color: white;
+	line-height: 80px;
+}
+
+.hafcss-float-left {
+	float: left;
+}
+
+.hafcss-search-form {
+	width: auto;
+	height: 100%;
+}
+
+.hafcss-select {
+	width: 128px;
+	height: 25px;
+	border-radius: 5px;
+}
+
+.hafcss-search-bar {
+	width: 182px;
+	height: 25px;
+	box-shadow: 0 0 7px #3498db;
+	border: 1px solid #3498db;
+	border-radius: 100px;
+	padding:0px 10px;
+}
+
+.hafcss-search-bar:focus {
+	border: 1px solid #ff9900;
+	color: #011892;
+	outline: 0;
+}
+
+.hafcss-footer {
+	position:fixed;
+	bottom:0;
+	width:100%;
+	height:40px;
+	line-height:40px;
+	background:linear-gradient(to top, deeppink, seashell);
+	color:white;
+	text-align:center;
+}
+
+.hafcss-footer-blank {
+	width: 100%;
+	height: 40px;
+}
+
+.hafcss-clear-left {
+	clear: left;
+}
